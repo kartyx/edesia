@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2011 The Android Open Source Project
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <style name="Theme.Edesia" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarItemBackground">@drawable/selectable_background_edesia</item>
+        <item name="popupMenuStyle">@style/PopupMenu.Edesia</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Edesia</item>
+        <item name="actionBarTabStyle">@style/ActionBarTabStyle.Edesia</item>
+        <item name="actionDropDownStyle">@style/DropDownNav.Edesia</item>
+        <item name="actionBarStyle">@style/ActionBar.Solid.Edesia</item>
+        <item name="actionModeBackground">@drawable/cab_background_top_edesia</item>
+        <item name="actionModeSplitBackground">@drawable/cab_background_bottom_edesia</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Edesia</item>
+
+                <!-- Light.DarkActionBar specific -->
+        <item name="actionBarWidgetTheme">@style/Theme.Edesia.Widget</item>
+
+    </style>
+
+    <style name="ActionBar.Solid.Edesia" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/ab_solid_edesia</item>
+        <item name="backgroundStacked">@drawable/ab_stacked_solid_edesia</item>
+        <item name="backgroundSplit">@drawable/ab_bottom_solid_edesia</item>
+        <item name="progressBarStyle">@style/ProgressBar.Edesia</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Edesia" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="background">@drawable/ab_transparent_edesia</item>
+        <item name="progressBarStyle">@style/ProgressBar.Edesia</item>
+    </style>
+	
+    <style name="PopupMenu.Edesia" parent="@style/Widget.AppCompat.PopupMenu">	
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_edesia</item>	
+    </style>
+	
+    <style name="DropDownListView.Edesia" parent="@style/Widget.AppCompat.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_edesia</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Edesia" parent="@style/Widget.AppCompat.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_edesia</item>
+    </style>
+	
+    <style name="DropDownNav.Edesia" parent="@style/Widget.AppCompat.Spinner.DropDown.ActionBar">
+        <item name="android:background">@drawable/spinner_background_ab_edesia</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_edesia</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_edesia</item>
+    </style>
+    
+    <style name="ProgressBar.Edesia" parent="@style/Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_edesia</item>
+    </style>
+    
+    <style name="ActionButton.CloseMode.Edesia" parent="@style/Widget.AppCompat.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_edesia</item>
+    </style>
+    
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Edesia.Widget" parent="@style/Theme.AppCompat">
+        <item name="popupMenuStyle">@style/PopupMenu.Edesia</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Edesia</item>
+    </style>
+
+</resources>

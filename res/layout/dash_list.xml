@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:layout_marginLeft="3dp"
+    android:layout_marginRight="3dp"
+    android:layout_marginBottom="5dp"
+    android:padding="5dp"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/DashDate"
+        android:layout_width="0dp"
+        android:layout_weight="0.2"
+        android:textSize="15sp"
+        android:textColor="#FFF"
+        android:layout_height="wrap_content"
+        android:text="Date" />
+
+    <TextView
+        android:id="@+id/DashItem"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:layout_width="0dp"
+        android:textSize="15sp"
+        android:layout_weight="0.2"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="Item" />
+
+    <TextView
+        android:id="@+id/DashQuantity"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="#FFF"
+        android:layout_width="0dp"
+        android:layout_weight="0.2"
+        android:layout_marginLeft="40dp"
+        android:layout_height="wrap_content"
+        android:text="Quantity" />
+
+    <TextView
+        android:id="@+id/DashCost"
+        android:textColor="#FFF"
+        android:layout_width="0dp"
+        android:layout_weight="0.2"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="40dp"
+        android:text="Cost" />
+    <TextView
+        android:id="@+id/DashTransId"
+        android:textColor="#FFF"
+        android:layout_width="0dp"
+        android:layout_weight="0.2"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="40dp"
+        android:text="TransId" />
+
+</LinearLayout>

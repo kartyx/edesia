@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp" >
+
+    <TextView
+        android:layout_marginTop="70dp"
+        android:id="@+id/ItemTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ITEM TITLE"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal" />
+
+    <RadioGroup 
+        android:id="@+id/TimingGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <RadioButton 
+            android:id="@+id/breakfastradio"
+            android:layout_width="match_parent"
+            android:text="7:15-8:00"
+            android:layout_height="wrap_content"
+            ></RadioButton>
+        <RadioButton 
+            android:id="@+id/firstbreakradio"
+            android:text="9:50-10:10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ></RadioButton>
+        <RadioButton 
+            android:id="@+id/lunchradio"
+            android:text="Lunch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ></RadioButton>
+    </RadioGroup>
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="20dp"
+    >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:layout_height="wrap_content"
+        android:text="Quantity" 
+        android:textStyle="bold"
+        android:layout_marginLeft="50dp" />
+
+    <Spinner
+        android:id="@+id/QtySpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5" 
+        android:entries="@array/Quantity">"
+        
+    </Spinner>
+
+</LinearLayout>
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="20dp"
+    android:gravity="center_horizontal"
+    >
+<Button 
+    android:id="@+id/CartButton"
+    android:layout_width="0dp"
+    android:layout_weight="0.5"
+    android:textColor="#FFF"
+    android:padding="6dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button_bg"
+    android:layout_gravity="center_horizontal"
+    android:text="Add To Cart"/>
+
+<Button
+    android:layout_marginLeft="5dp"
+    android:id="@+id/CancelBtn"
+    android:textColor="#FFF"
+    android:padding="6dp"
+    android:layout_weight="0.5"
+    android:layout_width="0dp"
+    android:background="@drawable/button_bg"
+    android:layout_height="wrap_content"
+    android:text="Cancel" />
+
+</LinearLayout>
+</LinearLayout>

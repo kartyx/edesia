@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="70dp"
+    android:padding="2dp"
+    android:background="#000" >
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:contentDescription="desc"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:src="@drawable/ic_launcher" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="1dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFF"
+        android:paddingBottom="5dp"
+        android:paddingTop="9dp" />
+
+    <TextView
+        android:id="@+id/ItemName"
+        android:layout_weight="0.5"
+        android:layout_width="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:layout_gravity="center"
+        android:text="Idly"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/ItemPrice"
+        android:layout_width="0dp"
+        android:layout_weight="0.3"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="74dp"
+        android:textColor="#FFF"
+        android:text="Rs." />
+
+</LinearLayout>
